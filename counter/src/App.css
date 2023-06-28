@@ -1,0 +1,52 @@
+.Header{
+  color: #0398d4;
+  font-size: xx-large;
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  background-color: #344151;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.countDisplay{
+  display: flex;
+  /*justify-content: center;*/
+  justify-content: center;
+  background-color: white;
+  width: 25vw;
+  height: 5vh;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0.125rem;
+  gap: 8vw;
+
+}
+
+.count{
+  font-size: xxx-large;
+}
+.sym1{
+  cursor: pointer;
+  font-size: xxx-large;
+}
+.sym2{
+  cursor: pointer;
+  font-size: xxx-large;
+}
+
+.btn{
+  width: 7vw;
+  height: 4vh;
+  background-color: aquamarine;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  border-radius: 0.125rem;
+  cursor: pointer;
+}
